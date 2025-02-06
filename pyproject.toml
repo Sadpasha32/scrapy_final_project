@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "book-crawling"
+version = "0.1.0"
+description = ""
+authors = ["ruamkp7 <pavel.a.mikhaylov@raiffeisen.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+scrapy = "^2.12.0"
+playwright = "^1.49.1"
+scrapy-playwright = "^0.0.42"
+pymongo = "^4.11"
+fastapi = {extras = ["standard"], version = "^0.115.8"}
+pillow = "^11.1.0"
+aiohttp = "^3.11.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
